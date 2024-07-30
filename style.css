@@ -1,0 +1,33 @@
+/*
+CABECERA
+*/
+
+.header{
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    background-color: #1F2937;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo-header{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+
+.enlaces-contenedor{
+    display: flex;
+    gap: 20px;
+}
+
+.enlace-header{
+    color: #bbbec3;
+    font-size: 18px;
+    
+}
