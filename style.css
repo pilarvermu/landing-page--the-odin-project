@@ -39,6 +39,12 @@ DUDAS acerca de como hacer que el espacio que queda
 a ambos lados cunado uso justify-content en este contenedor
 sea el mismo que en el header
 tengo que hacer un contenedor para ambos? probablemente
+
+dudas acerca de como poner el fondo del boton
+dudas acerca de como hacer que queden mas alineados 
+el texto de la izquierda con el de la derecha
+que el tope del titulo y del padding del contenedor de la imagen sean el mismo
+
 */
 
 .primera-seccion{
@@ -76,4 +82,31 @@ tengo que hacer un contenedor para ambos? probablemente
     padding:100px;
 }
 
+/*
+SEGUNDA SECCION
+*/
 
+/*
+TERCERA SECCION
+*/
+
+/*
+CUARTA SECCION
+*/
+
+/*
+PIE
+*/
+
+.pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.texto-pie{
+    color: #bbbec3;
+    font-size: 18px;
+}
