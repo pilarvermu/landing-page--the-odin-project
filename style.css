@@ -31,3 +31,49 @@ a{
     font-size: 18px;
     
 }
+
+/*
+PRIMERA SECCION
+
+DUDAS acerca de como hacer que el espacio que queda
+a ambos lados cunado uso justify-content en este contenedor
+sea el mismo que en el header
+tengo que hacer un contenedor para ambos? probablemente
+*/
+
+.primera-seccion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:50px;
+    background-color: #1F2937;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.titulo-primera-seccion{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.texto-primera-seccion{
+    color: #bbbec3;
+    font-size: 18px;
+}
+
+.boton-primera-seccion{
+    color: #E5E7EB;
+    font-size: 18px;
+    background-color: blue;
+    size: 10px
+}
+
+.imagen-derecha-primera-seccion{
+    color: #E5E7EB;
+    font-size: 18px;
+    background-color: grey;
+    padding:100px;
+}
+
+
