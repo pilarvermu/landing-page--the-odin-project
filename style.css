@@ -89,6 +89,23 @@ SEGUNDA SECCION
 /*
 TERCERA SECCION
 */
+.tercera-seccion{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.inspiring-quote{
+    color:#1F2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    width: 800px;
+}
 
 /*
 CUARTA SECCION
